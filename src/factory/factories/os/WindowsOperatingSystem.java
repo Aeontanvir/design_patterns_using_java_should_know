@@ -1,22 +1,29 @@
 package factory.factories.os;
 
-class MacOparetingSystem extends OperatingSystem {
+class WindowsOperatingSystem extends OperatingSystem {
 
 
 
-    public MacOparetingSystem(String version, String architecture) {
+    protected WindowsOperatingSystem(String version, String architecture) {
         super(version, architecture);
     }
 
     @Override
     public void changeDirectory(String dir) {
 
-        System.out.println("MacOparetingSystem Directory Change");
+        System.out.println("WindowsOperatingSystem Directory Change");
     }
 
     @Override
     public void removeDirectory(String dir) {
-        System.out.println("MacOparetingSystem Directory Remove");
+        System.out.println("WindowsOperatingSystem Directory Remove");
     }
+
+    @Override
+    public String toString() {
+        return "WindowsOperatingSystem  " + super.toString();
+    }
+
+    
     
 }

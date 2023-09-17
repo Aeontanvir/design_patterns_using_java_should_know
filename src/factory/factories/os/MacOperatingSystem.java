@@ -1,10 +1,10 @@
 package factory.factories.os;
 
-class MacOparetingSystem extends OperatingSystem {
+class MacOperatingSystem extends OperatingSystem {
 
 
 
-    public MacOparetingSystem(String version, String architecture) {
+    protected MacOperatingSystem(String version, String architecture) {
         super(version, architecture);
     }
 
@@ -18,5 +18,12 @@ class MacOparetingSystem extends OperatingSystem {
     public void removeDirectory(String dir) {
         System.out.println("MacOparetingSystem Directory Remove");
     }
+
+    @Override
+    public String toString() {
+        return "MacOperatingSystem  " + super.toString();
+    }
+
+    
     
 }

@@ -26,5 +26,13 @@ public abstract class OperatingSystem {
 
     public abstract void changeDirectory(String dir);
     public abstract void removeDirectory(String dir);
+
+    @Override
+    public String toString() {
+        return "OperatingSystem [version=" + version + ", architecture=" + architecture + "]";
+    }
+
+
+    
     
 }
