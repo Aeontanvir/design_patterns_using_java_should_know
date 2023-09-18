@@ -18,7 +18,7 @@ public class Channel {
 
     public void notifySubscribers(){
         this.subscribers.forEach(subscriber->{
-            subscriber.incommingUpdate();
+            subscriber.incommingUpdate(title);
         });
     }
 

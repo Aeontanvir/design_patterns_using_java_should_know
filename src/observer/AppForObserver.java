@@ -11,6 +11,8 @@ public class AppForObserver {
 
         channel.subscribe(subscriber1);
         channel.subscribe(subscriber2);
+        channel.subscribe(subscriber3);
+        
 
 
         for (int i = 0; i < 5; i++) {

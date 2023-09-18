@@ -10,8 +10,8 @@ public class Subscriber {
         this.name = name;
     }
 
-    public void incommingUpdate(){
-        System.out.println(name +": New Incomming Update!");
+    public void incommingUpdate(String title){
+        System.out.println(name +": New Incomming Update!"+" Updated Title: "+ title);
     }
 
     public void subscribeChannel(Channel channel){
