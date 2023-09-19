@@ -1,4 +1,4 @@
-package singleton;
+package prototype;
 
 public class AppForPrototype {
     public static void main(String[] args) throws CloneNotSupportedException {

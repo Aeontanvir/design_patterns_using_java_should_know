@@ -1,4 +1,4 @@
-package singleton;
+package prototype;
 
 public class Book {
     private int id;
