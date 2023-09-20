@@ -18,6 +18,13 @@ public class Subscriber {
         this.channel = channel;
     }
 
+    public Channel getChannel() {
+        return channel;
+    }
+
+
+
+
     
     
 }
