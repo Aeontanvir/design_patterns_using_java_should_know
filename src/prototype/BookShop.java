@@ -46,8 +46,4 @@ public class BookShop implements Cloneable{
         }
         return bs;
     }
-
-    
-    
-    
 }

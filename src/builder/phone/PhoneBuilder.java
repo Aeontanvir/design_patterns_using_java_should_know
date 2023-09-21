@@ -39,7 +39,4 @@ public class PhoneBuilder {
     public Phone getPHone() {
         return new Phone(os, ram, processor, screenSize, battery);
     }
-
-
-
 }
